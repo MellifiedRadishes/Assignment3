@@ -1,0 +1,33 @@
+body {
+  background-color: #FBCEB1;
+  color: #000000;
+  margin: 0;
+}
+
+@font-face {
+  font-family: CustomFont;
+  src: url("big_noodle_titling.ttf");
+}
+
+.header {
+  overflow: hidden;
+  background-color: #B8860B;
+  padding: 10px 10px;
+}
+
+.footer {
+  overflow: hidden;
+  background-color: #B8860B;
+  padding: 10px 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container {
+  font-size: 48px;
+  font-family: CustomFont;
+  color: #FE5A1D;
+  text-align: center;
+}
